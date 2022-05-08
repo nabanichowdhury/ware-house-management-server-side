@@ -137,5 +137,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("port is", port);
+  console.log("port", port);
 });
